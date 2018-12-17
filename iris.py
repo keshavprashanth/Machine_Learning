@@ -13,7 +13,7 @@ from sklearn.svm import SVC
 
 # Load dataset
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pandas.read_csv('C:/Users/ei5193/Desktop/Learning/ML/Data/iris/iris.txt', names=names)
+dataset = pandas.read_csv('C:/Users/Desktop/Learning/ML/Data/iris/iris.txt', names=names)
 
 print(dataset.shape)
 print(dataset.head(20))
